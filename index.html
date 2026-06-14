@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>DART — Show Ticket</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <main class="content">
+      <section class="header-text">
+        <h1>DART</h1>
+        <p>Show operator your ticket</p>
+      </section>
+
+      <section class="pass-visual" aria-label="Active ticket">
+        <div class="ring-container">
+          <div class="ring ring-inner"></div>
+          <div class="logo-circle">
+            <img src="assets/dart-logo.png" alt="DART logo" class="dart-logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="clock-section">
+        <time id="clock" datetime="">--:--:-- --</time>
+      </section>
+
+      <section class="ticket-card">
+        <p class="ticket-type">Regional Full Fare 31 Days</p>
+        <p class="ticket-location">Detroit, MI</p>
+        <p class="ticket-expiry" id="expiry">Expires Jul 15, 2026 at 5:26 PM</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
